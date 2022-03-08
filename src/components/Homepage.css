@@ -1,0 +1,42 @@
+#container {
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 23% 23% 23% 23%;
+    grid-gap: 1.5%;
+    text-align: center;
+    height: 350vh;
+}
+#container > div {
+    height: 500px;
+    box-shadow: 20px 20px 3px 3px grey;
+    padding: 5px;
+}
+#container div img {
+    width: 72%;
+    height: 70%;
+}
+
+#container p {
+    margin : 5px;
+    color: crimson;
+}
+
+#container .details {
+    height: 90px;
+}
+
+#pagesCount {
+    margin: 20px 0;
+}
+
+#filters {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 10px;
+}
+
+#filters > div {
+    margin: 0 2%;
+}

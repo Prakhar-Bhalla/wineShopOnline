@@ -1,0 +1,10 @@
+#formBox {
+    width: 50%;
+    margin: 30px auto;
+}
+
+#formBox input {
+    width: 95%;
+    margin: 5px 0;
+    height: 30px;
+}
