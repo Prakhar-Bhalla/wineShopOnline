@@ -41,7 +41,7 @@ const Home = () => {
     const changePage = (num) => {
         setPage(page + num);
         let arr;
-        if(filteredArray.length)
+        if(!filteredArray.length)
         {
             arr = wines.slice((page-1)*20, (page-1)*20+20);
         }
